@@ -121,23 +121,126 @@ margin-right: 25%;
 margin-top: -52%;
 border-radius: 10%;
 }
+
 .arm-left {
 background: black;
-width: fixed;
-height: fixed;
-margin-left: auto;
-margin-right: fixed;
-margin-top: fixed;
-border-radius: fixed;
+width: 25%;
+height: 200px;
+margin-left: 0%;
+margin-right: auto;
+margin-top: -135%;
+border-radius: 10%;
+animation: leftarm 17.20s infinite;
+animation-iteration-count: 1;
+transform-origin: top right;
+}
+
+@keyframes leftarm {
+0% {
+transform: rotate(0deg);
+}
+
+33.6538461538% {
+transform: rotate(0deg);
+}
+
+36.4423076923% {
+transform: rotate(120deg);
+}
+
+37.6923076923% {
+transform: rotate(120deg);
+}
+
+38.8461538462% {
+transform: rotate(90deg);
+}
+
+39.6153846154% {
+transform: rotate(90deg);
+}
+
+40.7692307692% {
+transform: rotate(120deg);
+}
+
+44.1730769231 {
+transform: rotate(120deg);
+}
+
+46.9423076923% {
+transform: rotate(0deg);
+}
+
+48.2692307692% {
+transform: rotate(140deg);
+}
+
+51.1538461538% {
+transform: rotate(20deg);
+}
+
+54.5192307692% {
+transform: rotate(140deg);
+}
+
+57.6923076923% {
+transform: rotate(40deg);
+}
+
+58.6923076923% {
+transform: rotate(40deg);
+}
+
+60.0961538462% {
+transform: rotate(140deg);
+}
+
+65.4615384615% {
+transform: rotate(180deg);
+}
+
+69.2307692308% {
+transform: rotate(180deg);
+}
+
+73.2307692308% {
+transform: rotate(0deg);
+}
+
+100% {
+transform: rotate(0deg);
+}
 }
 .arm-right {
 background: black;
-width: fixed;
-height: fixed;
-margin-left: auto;
-margin-right: fixed;
-margin-top: fixed;
-border-radius: fixed;
+width: 25%;
+height: 200px;
+margin-left: 75%;
+margin-right: auto;
+margin-top: -85%;
+border-radius: 10%;
+animation: rightarm 17.20s infinite;
+animation-iteration-count: 1;
+transform-origin: top left;
+}
+
+@keyframes rightarm {
+0% {
+transform: rotate(0deg);
+}
+
+32.2115384615% {
+transform: rotate(0deg);
+}
+
+34.1346153846% {
+transform: rotate(-40deg)
+}
+
+100% {
+transform: rotate(0deg)
+}
 }
 </style>
 </head>
@@ -152,13 +255,13 @@ Your browser does not support the video tag.
 </div>
 <div class="body">
 </div>
-<div class="arm-left"> 
-</div>
-<div class="arm-right">
-</div>
 <div class="leg-left"> 
 </div>
 <div class="leg-right"> 
+</div>
+<div class="arm-left"> 
+</div>
+<div class="arm-right">
 </div>
 </div>
 </div>
